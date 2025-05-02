@@ -1,6 +1,3 @@
-# task4.py
-# 🏛️ Завдання 4: Візуалізація бінарної купи у вигляді дерева
-
 import uuid
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -64,7 +61,7 @@ def draw_heap_tree(root):
 
 
 if __name__ == "__main__":
-    # Створюємо купу та побудовуємо дерево
+    
     data = [9, 5, 6, 2, 3]
     heapq.heapify(data)
     print("Купа:", data)
